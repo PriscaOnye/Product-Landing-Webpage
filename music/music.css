@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* 
+body {
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(241, 221, 195);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 54px;
+    border: 5px solid red;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+   margin: 50px;
+}
+
+ul.out {
+   display: flex;
+   justify-content: left;
+   margin-right: auto;
+   margin-left: 10px;
+}
+
+li.come {
+   flex-grow: 1;
+   padding-left: 18px;
+   padding-right: 0px;
+   margin-top: 18px;
+   margin-bottom: 18px;
+}
+
+li.come1 {
+    padding-left: 0px;
+    padding-right: 18px;
+ }
+
+ul.going {
+    display: flex;
+    justify-content: right;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(233, 210, 141);
+}
+
+.fa-drum {
+    font-size: 40px;
+    color: rgb(11, 70, 5);
+}
+ */
+
+
+body {
+    /* min-height: 100vh; */
+    width: 100%;
+    background-color: bisque;
+    font-family: Merriweather;
+}
+
+header {
+    background-color: whitesmoke;
+    font-size: 15px;
+    width: 100%;
+    height: 60px;
+    min-height: 50px;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: darksalmon;
+    padding: 0 15px;
+    width: 100%;
+    height: inherit;
+    min-height: inherit;
+    flex-wrap: wrap;
+}
+
+#logo-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 15px; */
+}
+
+.music {
+    /* width: 60px;
+    height: 60px; */
+    padding: 0 10px;
+    font-size: 30px;
+}
+
+#logo-area > h3{
+    padding: 5px;
+    font-size: 15px;
+}
+
+h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-right: 15px; */
+}
+
+li {
+    padding: 0 10px;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+#info {
+    margin: 25px 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+
+#form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    display: block;
+    padding: 5px 0;
+}
+
+#email {
+    width: 250px;
+    text-align: center;
+    margin-bottom: 8px;
+    border: 1.5px solid rgb(45, 44, 44);
+    border-radius: 3px;
+}
+
+#submit {
+    width: 150px;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    background-color: beige;
+    border: 1.5px solid rgb(45, 44, 44);
+    border-radius: 3px;
+}
+
+#submit:hover {
+    background-color: rgb(249, 204, 141);
+}
+
+#materials {
+    width: 100%;
+}
+
+#product {
+    width: 100%;
+}
+
+#icon {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 30px;
+}
+.word {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 80px;
+}
+
+#description {
+    margin-left: 70px;
+}
+
+.draw {
+    color: coral;
+    font-size: 45px;
+}
+
+#youtube {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 60px 0;
+}
+
+#video {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    margin: 0 auto;
+}
+
+#display {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: lightgreen;
+    margin-bottom: 50px;
+}
+
+#card {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    /* width: 100%; */
+    /* width: calc(100% / 3); */
+    /* height: 400px; */
+    /* min-height: 420px; */
+    margin: 10px;
+    /* padding: 5px; */
+    text-align: center;
+    text-overflow: inherit;
+    background-color: tomato;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+#title {
+    /* height: 45px;
+    min-height: 40px; */
+    font-weight: bold;
+    background-color: cornsilk;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.topic {
+    /* top: 5px;
+    position: relative; */
+    /* height: inherit;
+    min-height: inherit; */
+    padding: 10px;
+    font-size: 18px;
+}
+
+.price {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#card > p {
+    margin: 7px 5px;
+    /* padding: 8px; */
+}
+
+#touch {
+    /* width: 100%; */
+}
+
+.click-me {
+    width: 35%;
+    padding: 5px 5px;
+    margin: 5px auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+
+#end {
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: rgb(172, 172, 172);
+}
+
+#note {
+    padding-top: 18px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+#end > h5 {
+    padding-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
