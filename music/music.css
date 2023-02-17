@@ -7,83 +7,6 @@
 }
 
 
-
-/* 
-body {
-    width: 100%;
-}
-
-#header {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-nav {
-    width: 100%;
-    background-color: rgb(241, 221, 195);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 54px;
-    border: 5px solid red;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-   margin: 50px;
-}
-
-ul.out {
-   display: flex;
-   justify-content: left;
-   margin-right: auto;
-   margin-left: 10px;
-}
-
-li.come {
-   flex-grow: 1;
-   padding-left: 18px;
-   padding-right: 0px;
-   margin-top: 18px;
-   margin-bottom: 18px;
-}
-
-li.come1 {
-    padding-left: 0px;
-    padding-right: 18px;
- }
-
-ul.going {
-    display: flex;
-    justify-content: right;
-    margin-top: 18px;
-    margin-bottom: 18px;
-}
-
-
-nav a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: 5px;
-}
-
-nav a:hover {
-    background-color: rgb(233, 210, 141);
-}
-
-.fa-drum {
-    font-size: 40px;
-    color: rgb(11, 70, 5);
-}
- */
-
-
 body {
     /* min-height: 100vh; */
     width: 100%;
@@ -119,8 +42,6 @@ nav {
 }
 
 .music {
-    /* width: 60px;
-    height: 60px; */
     padding: 0 10px;
     font-size: 30px;
 }
@@ -155,10 +76,6 @@ li a {
 
 #info {
     margin: 25px 0;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
 }
 
 .brand {
@@ -216,7 +133,6 @@ input {
     width: 70%;
     margin: 0 auto;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     margin-bottom: 30px;
 }
@@ -239,7 +155,6 @@ input {
 
 #youtube {
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     margin: 60px 0;
 }
@@ -262,16 +177,7 @@ input {
 }
 
 #card {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
-    /* width: 100%; */
-    /* width: calc(100% / 3); */
-    /* height: 400px; */
-    /* min-height: 420px; */
     margin: 10px;
-    /* padding: 5px; */
     text-align: center;
     text-overflow: inherit;
     background-color: tomato;
@@ -280,8 +186,6 @@ input {
 }
 
 #title {
-    /* height: 45px;
-    min-height: 40px; */
     font-weight: bold;
     background-color: cornsilk;
     border-top-left-radius: 5px;
@@ -289,10 +193,6 @@ input {
 }
 
 .topic {
-    /* top: 5px;
-    position: relative; */
-    /* height: inherit;
-    min-height: inherit; */
     padding: 10px;
     font-size: 18px;
 }
@@ -304,7 +204,6 @@ input {
 
 #card > p {
     margin: 7px 5px;
-    /* padding: 8px; */
 }
 
 #touch {
